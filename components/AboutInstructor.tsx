@@ -39,11 +39,13 @@
 // };
 
 // export default AboutInstructor;
+'use client'
 import React from "react";
 
 const AboutInstructor = () => {
     return (
-        <div className="flex flex-col items-center px-4 sm:px-8 lg:px-16">
+        <section id='about'>
+        <div className="flex flex-col items-center py-9 px-4 sm:px-8 lg:px-16">
             <h1 className="middle-text font-bold inter-font text-2xl sm:text-3xl mt-6">
                 About The Instructor
             </h1>
@@ -71,11 +73,12 @@ const AboutInstructor = () => {
                 century.
             </p>
             <div className="pt-3">
-                <button className="text-white glow bg-[#1A9D96] border text-lg rounded-lg my-6 w-full max-w-sm py-3 inter-font">
+                <button className="text-white glow bg-[#1A9D96] border text-lg rounded-lg my-6 w-full max-w-sm py-3 px-3 inter-font">
                     Know more about the instructor
                 </button>
             </div>
         </div>
+        </section>
     );
 };
 

@@ -89,12 +89,13 @@ const CourseOverview = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-col items-start sm:px-16 lg:px-32 pt-8 overflow-y-auto">
-                    <h2 className="text-xl sm:text-2xl inter-font middle-text mt-8">
+                <div className="flex flex-col items-center px-4 sm:px-8 lg:px-16">
+     
+                    <h2 className="text-xl sm:text-2xl inter-font middle-text mt-10">
                         All of them are possible options. But the question is,
                         which one is best for you..? <br />
                     </h2>
-                    <p className="text-lg sm:text-xl inter-font font-bold navy-text pb-7 mt-5">
+                    <p className="w-full max-w-4xl pt-7 inter-font navy-text text-lg font-bold sm:text-xl">
                         This course will provide you with the answers you need.
                         Giving you clarity on HOW and WHERE to look for marriage
                     </p>

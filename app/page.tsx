@@ -13,21 +13,20 @@ export default function Home() {
     <div className="bg-[#F8F7F3]">
 
       <NavBar/>
-      <HeroV2 videoSrc="/MGNA_Intro.mp4"/>
+      <HeroV2 />
       <Cards />
       <Questions />
       <CourseOverview />
 
-      {/* <div className="flex flex-col items-center w-[40rem]"> */}
+
       {/* <div className="p-10 flex flex-row items-center justify-center  gap-2">
-      <h1>text momtaza</h1>
-      <Component  />
-      </div>
       
-      </div> */}
-      {/* <div className="pl-[15rem] pr-[15rem]" >
+       <Component  />
+       </div>
+      <div className="pl-[15rem] pr-[15rem]" >
        <Component2 />
        </div> */}
+      
        <AboutInstructor />
      </div>
   );
