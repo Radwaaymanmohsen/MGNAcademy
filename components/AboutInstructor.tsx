@@ -37,7 +37,7 @@ const AboutInstructor = () => {
                     Know more about the instructor
                 </button> */}
                  <blockquote className="text-lg sm:text-xl italic text-gray-800 text-center px-4 sm:px-6 md:px-8">
-                    “Marriage used to be easy... but times have changed.”
+                    Facing any issues? Contact : info@mgn.network
                 </blockquote>
             </div>
         </div>
