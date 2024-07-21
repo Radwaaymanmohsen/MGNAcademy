@@ -28,11 +28,11 @@ const PodiaEmbed: React.FC = () => {
     <>
     <blockquote className="text-lg sm:text-xl  text-red-500 text-center px-4 sm:px-6 md:px-8">
                     Enjoyed this class and want to learn more? Well, this is just the start. <br /> Get access to the full course with <span className='text-red-500'>over 50+</span> classes.
-                     <br/> Use [CODE] for <span className='text-red-500'>50% off</span>. 
+                     <br/> Use [MARRIAGE50] for <span className='text-red-500'>50% off</span>. 
 Hurry, limited to the first 100 ONLY!
                 </blockquote>
          <a
-      href="https://muslimglobalnetwork.podia.com/finding-marriage-made-simple"
+      href="https://mgnacademy.podia.com/finding-marriage-made-simple"
       data-podia-embed="link"
       data-text="Get Access To The Full Course"
       ref={anchorRef}
@@ -44,3 +44,4 @@ Hurry, limited to the first 100 ONLY!
   );
 };
 export default PodiaEmbed;
+

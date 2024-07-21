@@ -33,9 +33,12 @@ const AboutInstructor = () => {
                 century.
             </p>
             <div className="pt-3">
-                <button className="text-white glow bg-[#1A9D96] border text-lg rounded-lg my-6 w-full max-w-sm py-3 px-3 inter-font">
+                {/* <button className="text-white glow bg-[#1A9D96] border text-lg rounded-lg my-6 w-full max-w-sm py-3 px-3 inter-font">
                     Know more about the instructor
-                </button>
+                </button> */}
+                 <blockquote className="text-lg sm:text-xl italic text-gray-800 text-center px-4 sm:px-6 md:px-8">
+                    “Marriage used to be easy... but times have changed.”
+                </blockquote>
             </div>
         </div>
         </section>
