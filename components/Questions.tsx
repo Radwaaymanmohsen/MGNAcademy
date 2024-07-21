@@ -1,7 +1,5 @@
-
-
-
 "use client";
+
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
@@ -66,11 +64,6 @@ const Questions = () => {
                 exit={{ opacity: 0 }}
                 transition={{ duration: 1 }}
                 className="w-full max-w-md p-3 italic rounded-lg shadow-md text-center text-[#2967ae] mb-6"
-                // style={{
-                //     whiteSpace: "nowrap",
-                //     overflow: "hidden",
-                //     textOverflow: "ellipsis",
-                // }}
             >
                 <h1 className="text-lg sm:text-2xl mb-4">
                     {MaleQuestions[currentMQuestion]}
@@ -83,29 +76,12 @@ const Questions = () => {
                 exit={{ opacity: 0 }}
                 transition={{ duration: 1 }}
                 className="w-full max-w-md p-3 italic rounded-lg shadow-md text-center text-pink-400 mb-6"
-                // style={{
-                //     whiteSpace: "nowrap",
-                //     overflow: "hidden",
-                //     textOverflow: "ellipsis",
-                // }}
             >
                 <h1 className="text-lg sm:text-2xl ">
                     {FemaleQuestions[currentFQuestion]}
                 </h1>
             </motion.div>
-{/* 
-            <div className="flex flex-col items-start px-4  sm:px-8 lg:px-16 pt-4 overflow-y-auto">
-                <p className="text-base sm:text-lg inter-font font-bold navy-text pb-4 sm:pb-7">
-                    Choosing the right spouse can be a hard process, it’s one of
-                    the most important decisions we will ever make. BUT there’s
-                    very little direction and clarity on how to make the right
-                    choice. <br /> <br />
-                    My goal in this course is to bring clarity and direction to
-                    your marriage search, helping you navigate the hundreds of
-                    different scenarios and challenges you might face when
-                    looking for a spouse.
-                </p>
-            </div> */}
+
  <div className="flex flex-col items-center px-4 sm:px-8 lg:px-16">
      <p className="w-full max-w-4xl pt-7 inter-font navy-text text-lg  sm:text-xl">
         Choosing the right spouse can be a hard process, it’s one of
@@ -118,8 +94,6 @@ const Questions = () => {
         looking for a spouse.
     </p>
 </div>
-
-
         </div>
     );
 };

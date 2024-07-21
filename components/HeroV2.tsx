@@ -50,10 +50,9 @@ const HeroV2: React.FC = () => {
                 <VimeoVideo  />
   
               
-                <button className="text-white glow bg-[#1A9D96] border text-lg rounded-lg my-4 md:my-6 w-full md:w-[20rem] py-3 inter-font">
+                <a href="/firstlesson" className="text-white text-center glow bg-[#1A9D96] border text-lg rounded-lg my-4 md:my-6 w-full md:w-[20rem] py-3 inter-font">
                     Watch The First Class For Free!
-                </button>
-                
+                </a>
                 <h1 className="middle-text font-bold inter-font text-2xl sm:text-3xl mb-4 md:mb-6 mt-6 md:mt-10 text-center">
                     What Is This Course All About?
                 </h1>
